@@ -17,7 +17,7 @@ public class Set_Example {
 		System.out.println(animals+"--animals ");
 		
 		Set<Integer> dogs=new HashSet<>();
-		dogs.add(40);
+		dogs.add(100);
 		dogs.add(100);
 		dogs.add(30);
 		System.out.println(dogs+"--dogs ");
