@@ -7,9 +7,10 @@ public class HashMapsPractice {
 	public static void main(String[] args) {
 	
 		HashMap<String,Integer> numbers=new HashMap<>();
-		numbers.put("srikanth", 1743);
-		numbers.put("venkatesh", 1968);
-		numbers.put("prateja", 1490);
+		//Adding surnames
+		numbers.put("srikanth_jinikiri", 1743);
+		numbers.put("venkatesh_Gaddam", 1968);
+		numbers.put("prateja_Bakki", 1490);
 		numbers.putIfAbsent("sri", 1912); //If key is not present then insert
 		System.out.println(numbers);
 		
